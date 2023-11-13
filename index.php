@@ -68,97 +68,7 @@
                         <span class="item__cost">35.000.000đ</span>
                         <span class="item__sale">- 30%</span>
                     </div>
-                </a>
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a>
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a>
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a>
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a>
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a>
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a>
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a>
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a>
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a>
+                </a> 
             </div>
         </div>
         <div class="footer">
@@ -170,41 +80,8 @@
                 </div>
             </div>
         </div>
-        <script>
-            var slideIndex = 1; // Bắt đầu từ slide đầu tiên
-
-            function showSlides(n) {
-                let slides = document.getElementsByClassName("slide");
-
-                if (n > slides.length) {
-                    slideIndex = 1;
-                }
-
-                if (n < 1) {
-                    slideIndex = slides.length;
-                }
-
-                for (let i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-
-                slides[slideIndex - 1].style.display = "block";
-            }
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            showSlides(slideIndex);
-
-            // Tự động chuyển slide sau một khoảng thời gian
-            function autoSlide() {
-                plusSlides(1);
-                setTimeout(autoSlide, 2000); // Đổi slide mỗi 2 giây
-            }
-
-            autoSlide();
-        </script>
+   <script src="./javascript/slide.js"></script>
+    
 </body>
 
 </html>
