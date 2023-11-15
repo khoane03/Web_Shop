@@ -178,7 +178,7 @@ html {
     justify-content: space-around;
     margin: 0 12rem;
     box-shadow: 0 1px 10px #888888;
-    position: sticky;
+    /* position: sticky; */
     top: 6.4rem;
 }
 
@@ -223,6 +223,7 @@ html {
 }
 
 .product-item .item__image {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
@@ -255,10 +256,11 @@ html {
     color: #EC5758;
     padding: 0 0.5rem;
     line-height: 1.9rem;
-    /* text-decoration: line-through; */
 }
 /* footer */
-.footer-top{
+.footer{
+    background-color: var(--default_color);
     border-top: 0.5px solid #FFF1E9;
-    height: 50rem;
+    height: 20rem;
+    width: 100%;
 }

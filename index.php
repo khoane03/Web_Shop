@@ -13,75 +13,16 @@
 <body>
 
     <div class="wrapper">
-        <div class="header">
-            <ul class="header-left">
-                <li class="header-logo hiden_list">
-                    <a href="index.php"><img src="./images/logo.png" alt="logo"></a>
-                </li>
-                <li class="header-search hiden_list">
-                    <i class="fa-solid fa-magnifying-glass" style="color: #040404;"></i>
-                    <input type="text" class="search__input" name="" id="" placeholder="Bạn cần tìm gì ?">
-                </li>
-            </ul>
-            <ul class="header-righ">
-                <li class="header-support hiden_list text__separate">
-                    <i class="fa-solid fa-phone sp_icon" style="color: #444444;"></i>
-                    <a href="" class="sp__text ">hỏi đáp</a>
-                </li>
-                <li class="header-cart hiden_list text__separate">
-                    <i class="fa-solid fa-cart-shopping cart_icon" style="color: #444444;"></i>
-                    <a href="" class="cart__text ">giỏ hàng</a>
-                </li>
-                <li class="header-login hiden_list">
-                    <img src="./images/icon_login.png" alt="images login">
-                    <a href="" class="login__text ">Đăng nhập</a>
-                </li>
-            </ul>
-        </div>
-        <div class="banner">
-            <div class="slide fade">
-                <img src="./images/banner.png" alt="Slide 1">
+        <?php
+        include("./pages/header.php");
+        include("./pages/slide.php");
+        include("./pages/menu.php");
+        include("./pages/main.php");
+        include("./pages/footer.php");
+        ?>
 
-            </div>
-            <div class="slide fade">
-                <img src="./images/banner1.png" alt="Slide 2">
-            </div>
-            <div class="slide fade">
-                <img src="./images/banner2.png" alt="Slide 3">
-            </div>
-        </div>
-        <div class="menu">
-            <a href="index.php" class="menu__item "> <i class="fa-solid fa-house" style="color: #444444;"></i> Trang chủ</a>
-            <a href="" class="menu__item "><i class="fa-solid fa-mobile style=" color: #444444;></i> Điện thoại</a>
-            <a href="" class="menu__item "><i class="fa-solid fa-laptop" style="color: #444444;"></i> Laptop</a>
-            <a href="" class="menu__item "><i class="fa-solid fa-tablet" style="color: #444444;"></i> Tablet</a>
-            <a href="" class="menu__item "><i class="fa-regular fa-clock" style="color: #444444;"></i> Watch</a>
-        </div>
-        <div class="container">
-            <div class="products">
-                <a href="" class="product-item hiden_list">
-                    <img class="item__image" src="./images/14-black.jpeg" alt="">
-                    <div class="item__name">
-                        <span>IPhone 14 ProMax </span>
-                    </div>
-                    <div class="item__price">
-                        <span class="item__cost">35.000.000đ</span>
-                        <span class="item__sale">- 30%</span>
-                    </div>
-                </a> 
-            </div>
-        </div>
-        <div class="footer">
-                <div class="footer-top">
+        <script src="./javascript/slide.js"></script>
 
-                </div>
-                <div class="footer--copyringht">
-                    <p>@2023</p>
-                </div>
-            </div>
-        </div>
-   <script src="./javascript/slide.js"></script>
-    
 </body>
 
 </html>
