@@ -1,14 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "datashop";
+$mysql = new mysqli('localhost','root','','datashop');
 
-$conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
-if ($conn->connect_error) {
-  echo("Connection failed: " . $conn->connect_error);
+if(mysqli_connect_errno()){
+    echo "Error" . $mysql->connect_error;
+    exit();
 }
-echo "Connected successfully";
 ?>
